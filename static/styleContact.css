@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Bree+Serif&display=swap');
+h1{
+    text-align: center;
+    margin: 2px 0;
+}
+.myInput{
+    width: 40%;
+    padding: 4px;
+    margin: 10px;
+    font-size: 14px;
+    border: 2px solid rgb(9,136,4);
+    border-radius: 12px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.btn{
+    padding: 3px 16px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(9,136,4);
+    border-radius: 13px;
+    cursor: pointer;
+    margin: 4px;
+    outline: none;
+    margin-top: 4px;
+}
+.container{
+    min-height: 83vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.container h1{
+    font-family: "Baloo Bhaina 2";
+    font-size: 34px;
+}

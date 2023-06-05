@@ -1,0 +1,50 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    section#introSection 
+        div Welcome To Shashwat Dance Academy
+        div.small Eat Sleep Dance Repeat
+    section#sponsorsSection 
+        h3 Our Sponsors
+        div#sponsors
+            img(src="/static/img/sponsor1.jpg" class="spImage" alt="sponsor image")
+            img(src="/static/img/sponsor2.jpg" class="spImage" alt="sponsor image")
+            img(src="/static/img/sponsor3.jpg" class="spImage" alt="sponsor image")
+            img(src="/static/img/sponsor4.jpg" class="spImage" alt="sponsor image") 
+    section#missionSection 
+        h3 Our Mission
+        div.card
+            h4 Dance perfection
+                div.card-box
+                  div.card-img
+                     img(src="/static/img/mission1.jpg")
+                  div.card-content
+                     p Perfection in each and every step is most important part of dance.      
+        div.card
+            h4 Dance the way you like 
+                div.card-box
+                  div.card-img
+                     img(src="/static/img/mission2.jpg")
+                  div.card-content
+                     p Most important thing is interest in dancing, dancing your own way is not wrong.
+        div.card
+           h4 Expert teaching
+                div.card-box
+                  div.card-img
+                     img(src="/static/img/mission3.jpg")
+                  div.card-content
+                     p From our side, we want to give the best guidance to anyone who is dedicated towards dancing. 
+        div.card
+            h4 Competitive Success             
+                div.card-box
+                  div.card-img
+                     img(src="/static/img/mission4.jpg")
+                  div.card-content
+                     p There is only one way to prove yourself to be the best, by defeating others.   

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Bree+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhaina 2',
+        cursive;
+}
+#navbar{
+    background-color: rgb(4 6 22);
+    padding: 13px 15px;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    margin-right: 320px;
+    font-size: 20px;
+}
+#logo img{
+    height: 42px;
+    width: 42px;
+    margin-right: 20px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+#navbar li a:hover{
+    color: rgb(9, 136, 4);
+    font-weight: bold;
+}
+#navbar li a:active{
+    color: rgb(6, 51, 13);
+}
+#introSection{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 860px;
+    flex-direction: column;
+    background-color: red;
+    font-size: 50px;
+    background: url(/static/bg.jpg) center/cover no-repeat;
+    font-family: 'Bree Serif',
+        serif;
+}
+#introSection div.small{
+    font-size: 30px;
+    padding: 5px;
+}
+#sponsorsSection{
+    height: 500px;
+    color: rgb(9,136,4);
+    background-color: rgb(8,20,19);
+}
+#sponsorsSection h3{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px;
+    font-family: 'Baloo Bhaina 2';
+}
+#sponsors{
+    height: 200px;
+    margin: 50px;
+}
+.spImage{
+    height: 350px;
+    width:25%;
+    padding: 20px;
+}
+#missionSection{
+    height: 500px;
+    background-color: rgb(9, 136, 4);
+    color: rgb(3, 3, 3);
+}
+#missionSection h3{
+    text-align: center;
+        padding-top: 15px;
+        font-size: 30px;
+        font-family: 'Baloo Bhaina 2';
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 20%;
+    height: 370px;
+    margin: 23px 47px;
+    background-color: black;
+    display: inline-block;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card h4{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(9,136,4);
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-img{
+    height: 300px;
+    padding: 0px 20px;
+}
+.card-img img{
+    height: inherit;
+    width: 200px;
+}
+.card-content{
+    padding: 0px 5px;
+}
+.card-content p{
+    font-size: 18px;
+    color: rgb(9,136,4);
+}
+
+#footer{
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(9, 136, 4);
+    padding-top: 20px;
+    position: relative;
+}
